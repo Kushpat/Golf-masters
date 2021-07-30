@@ -1,0 +1,155 @@
+.body_background 
+{
+    background-position: center;
+    background-size:contain;
+	background:url(Grass.jpg);
+}
+#myCanvas
+{
+    border-width:10px;
+    border-style:ridge;
+	background-color:forestgreen;
+}
+
+
+#hd1{
+	display: inline-block;
+	color: rgb(80, 206, 245);
+	background-color: rgb(76, 101, 240);
+	font-family: fantasy;
+}
+
+#hd2{
+	
+	display: inline-block;
+	color: rgb(80, 206, 245);
+	background-color: rgb(76, 101, 240);
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.instruck {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #134563;
+	transition-duration: 0.4s;
+  }
+  
+  .instruck:hover {
+	background-color: #008CBA;
+	color: white;
+	
+  }
+
+  .gogolf{
+	background-color: white; 
+	color: black; 
+	border: 2px solid #134563;
+	transition-duration: 0.4s;
+  }
+
+  .gogolf:hover {
+	background-color:mediumpurple;
+	color: white;
+  }
+
+.start{
+	background-color: white; 
+	color: black; 
+	border: 2px solid #0de7b1;
+	transition-duration: 0.4s;
+}
+
+.start:hover{
+	background-color: mediumspringgreen;
+	color: white;
+}
+
+#hd3{
+	color: mintcream;
+}
+
+#hd4{
+	color: mintcream;
+}
+
+.button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #f4511e;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+  }
+  
+  .button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+  .button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  .button:hover span {
+	padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+
+
+  .restart {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+.restart:hover,
+
+.restart:focus {
+    background: #0053ba;
+}
+
+
+.restart:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+
+.restart:active {
+    transform: scale(0.99);
+}
+
+#dahd{
+	color: white;
+}
